@@ -35,7 +35,7 @@ public class TelaCadastroPessoaFisica extends JFrame {
         conectar();
     }
     public void iniciarComponentes(){
-        setTitle("Cadastro de Aluno");
+        setTitle("Pessoa Fisica");
         setSize(500,300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(CadastroPessoaFisica);
@@ -91,7 +91,7 @@ public class TelaCadastroPessoaFisica extends JFrame {
             btnVoltar.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    TelaContaCorrente telaContaCorrente = new TelaContaCorrente();
+                    Menu menu = new Menu();
                 }
             });
         }catch (Exception ex) {

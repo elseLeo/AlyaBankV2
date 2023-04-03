@@ -25,7 +25,7 @@ public class TelaContaCorrente extends JFrame{
         conectar();
     }
     public void iniciarComponentes(){
-        setTitle("Cadastro de Aluno");
+        setTitle("Conta Corrente");
         setSize(500,300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(CadastroPessoaFisica);
@@ -67,7 +67,7 @@ public class TelaContaCorrente extends JFrame{
             btnVoltar.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    TelaCadastroPessoaFisica telaCadastroPessoaFisica = new TelaCadastroPessoaFisica();
+                    Menu menu = new Menu();
                 }
             });
         }catch (Exception ex) {
