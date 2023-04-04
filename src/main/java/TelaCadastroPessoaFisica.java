@@ -36,7 +36,7 @@ public class TelaCadastroPessoaFisica extends JFrame {
     }
     public void iniciarComponentes(){
         setTitle("Pessoa Fisica");
-        setSize(500,300);
+        setExtendedState(MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(CadastroPessoaFisica);
         setVisible(true);

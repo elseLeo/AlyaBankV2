@@ -16,7 +16,7 @@ public class Menu extends JFrame {
     }
     public void iniciarComponentes(){
         setTitle("Menu");
-        setSize(500,300);
+        setExtendedState(MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(jpMenu);
         setVisible(true);

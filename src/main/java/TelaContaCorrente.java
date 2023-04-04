@@ -26,7 +26,7 @@ public class TelaContaCorrente extends JFrame{
     }
     public void iniciarComponentes(){
         setTitle("Conta Corrente");
-        setSize(500,300);
+        setExtendedState(MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(CadastroPessoaFisica);
         setVisible(true);
